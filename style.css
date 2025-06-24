@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 24px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+/* Home Section */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #e0f7fa;
+}
+.conteiner{
+    display: flex;
+}
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero{
+    text-align: left;
+}
+.hero p {
+    font-size: 18px;
+    /* font: bold; */
+    text-align: center;
+    
+}
+
+/* About Section */
+.about {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about p {
+    font-size: 16px;
+}
+/* Projects Section */
+.projects {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #e8f5e9;
+}
+.projects h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-card {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* Contact Section */
+.contact {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #c4d8f9;
+}
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact form input, .contact form textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact button {
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact button:hover {
+    background-color: #005f99;
+}
