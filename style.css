@@ -8,8 +8,6 @@ body {
     background-color: #f0f8ff;
     color: #333;
 }
-
-/* Header Styles */
 header {
     background-color: #007acc;
     color: white;
@@ -34,7 +32,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-/* Home Section */
+
 .hero {
     padding: 100px 20px;
     text-align: center;
@@ -52,12 +50,10 @@ nav a:hover {
 }
 .hero p {
     font-size: 18px;
-    /* font: bold; */
     text-align: center;
     
 }
 
-/* About Section */
 .about {
     padding: 80px 20px;
     text-align: center;
@@ -70,7 +66,7 @@ nav a:hover {
 .about p {
     font-size: 16px;
 }
-/* Projects Section */
+
 .projects {
     padding: 80px 20px;
     text-align: center;
@@ -93,7 +89,7 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-/* Contact Section */
+
 .contact {
     padding: 80px 20px;
     text-align: center;
